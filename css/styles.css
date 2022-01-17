@@ -1,0 +1,160 @@
+body{
+  font-family:Montserrat , sans-serif;
+}
+
+#title{
+  /* height: 100vh; */
+  background-color: #ff4c68;
+
+}
+.container-fluid{
+  padding:3% 15%;
+}
+
+h1{
+  margin-top: 4.07rem;
+  color: white;
+  font-family: 'Montserrat' ;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.navbar{
+  padding-left: 0;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.nav-link{
+  font-family: Montserrat;
+  font-size: 1.15rem;
+  font-weight: lighter;
+  margin-right: 30px;
+}
+
+.nav-link:hover{
+  color: #fff
+}
+
+.iphone{
+  margin-left: 7.5rem;
+
+  width: 50%;
+  margin-top: 50px;
+  transform: rotate(20deg);
+
+}
+.fea{
+  padding: 5%;
+}
+
+.fas{
+  margin-left: 0rem;
+  color: #ef8172;
+  /* font-size: 3rem; */
+  margin-bottom: 3.5%;
+
+}
+.fas:hover{
+
+  /* animation: anima 2s infinite; */
+  color: #ff4c68;
+  transition: 0.6s ease;
+}
+
+/* @keyframes anima {
+
+          0%{
+            color: #ef8172;
+          }
+
+          20%{
+            color: #ff4c68;
+          }
+
+          40%{
+            color: #D1635B
+          }
+
+
+
+          75%{
+            color: #ef8172;
+          }
+
+          100%{
+            color: #ff4c68;
+          }
+} */
+
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  /* margin-top:5.5rem; */
+}
+
+
+.downloadbtn{
+  margin: 5% 3% 0 0;
+}
+
+
+.fea-title{
+
+  font-weight: 900;
+  font-size: 1.75rem;
+
+}
+
+.fea-des{
+  color: #8f8f8f;
+
+}
+/* ----------------------------------------------------------------------------Up Till Feature------------------------------------------------------------------- */
+
+
+/* Carosal Testimonals */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #F94892;
+  color: #fff;
+}
+#press{
+  background-color: #F94892;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 1.5rem 1.5rem 3rem;
+}
+h2{
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+.carousel-item{
+    padding: 10% 15% ;
+}
+.test-img{
+  width: 15%;
+  border-radius: 100%;
+
+  margin: 20px;
+}
+
+
+.indiop{
+  margin: 0 auto 20px auto;
+
+  top: 10px;
+  bottom: 0;
+  position: absolute;
+  padding-top:  300px;
+}
