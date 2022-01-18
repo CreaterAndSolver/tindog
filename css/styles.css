@@ -44,10 +44,10 @@ h1{
   position: relative;
 }
 .iphone{
-  margin-left: 7.5rem;
+  /* margin-left: 7.5rem; */
   right: 69px;
   width: 50%;
-  margin-top: 90px;
+  margin-top: 80px;
   transform: rotate(20deg);
   position: absolute;
   height: 500px;
@@ -203,4 +203,17 @@ h2{
 }
 .cd-container{
   margin-top: 100px;
+}
+
+
+@media (max-width:1200px) {
+    .iphone{
+      position: static;
+      transform: rotate(0deg);
+    }
+
+    #title{
+      text-align: center;
+    }
+
 }
