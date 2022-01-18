@@ -1,304 +1,248 @@
-body{
-  font-family:Montserrat , sans-serif;
+/*-------------------------------------------------------Elements-------------------------------------------------------*/
+
+
+
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
 }
 
-#title{
-  /* height: 100vh; */
-  background-color: #ff4c68;
-  padding-bottom: 5%;
-
-}
-.container-fluid{
-  padding:3% 15%;
-}
-
-.cfl{
-  padding:3% 10%;
-}
-
-h1{
+h1 {
+  text-align: left;
   margin-top: 4.07rem;
-  color: white;
-  font-family: 'Montserrat' ;
+  color: #fff;
   font-size: 3.5rem;
   font-weight: bold;
   line-height: 1.5;
 }
 
-.navbar{
-  padding-left: 0;
-}
-.navbar-brand{
-  font-family: Ubuntu;
-  font-weight: 600;
-  font-size: 2.5rem;
-}
-
-.nav-link{
-  font-family: Montserrat;
-  font-size: 1.15rem;
-  font-weight: lighter;
-  margin-right: 30px;
-}
-
-.nav-link:hover{
-  color: #fff
-}
-.img-box{
-  position: relative;
-}
-.iphone{
-  /* margin-left: 7.5rem; */
-  right: 69px;
-  width: 50%;
-  margin-top: 80px;
-  transform: rotate(20deg);
-  position: absolute;
-  height: 500px;
-  width: auto;
-
-}
-.fea{
-  padding: 5%;
-}
-
-.fas{
-  margin-left: 0rem;
-  color: #ef8172;
-  /* font-size: 3rem; */
-  margin-bottom: 3.5%;
-
-}
-.fas:hover{
-
-  /* animation: anima 2s infinite; */
-  color: #ff4c68;
-  transition: 0.6s ease;
-}
-
-/* @keyframes anima {
-
-          0%{
-            color: #ef8172;
-          }
-
-          20%{
-            color: #ff4c68;
-          }
-
-          40%{
-            color: #D1635B
-          }
-
-
-
-          75%{
-            color: #ef8172;
-          }
-
-          100%{
-            color: #ff4c68;
-          }
-} */
-
-#features{
-  background-color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-  position: relative;
-
-  /* margin-top:5.5rem; */
-}
-
-
- .downloadbtn{
-  margin: 5% 3% 0 0;
-}
-
-
-.fea-title{
-
-  font-weight: 900;
-  font-size: 1.75rem;
-
-}
-
-.fea-des{
-  color: #8f8f8f;
-
-}
-/* ----------------------------------------------------------------------------Up Till Feature------------------------------------------------------------------- */
-
-
-/* Carosal Testimonals */
-
-#testimonials{
-
-  text-align: center;
-  background-color: #4FBDBA;
-  color: #fff;
-}
-#press{
-  background-color: #4FBDBA;
-  text-align: center;
-  padding-bottom: 3%;
-}
-.press-logo{
-  width: 15%;
-  margin: 1.5rem 1.5rem 3rem;
-}
-
-
-h2{
+h2 {
   font-weight: 900;
   line-height: 1.5;
   font-size: 2rem;
 }
-.carousel-item{
-    padding: 10% 15% ;
-}
-.test-img{
-  width: 15%;
-  border-radius: 100%;
 
-  margin: 20px;
-}
-
-
-.indiop{
-  margin: 0 auto 20px auto;
-
-  top: 10px;
-  bottom: 0;
-  position: absolute;
-  padding-top:  300px;
-}
-
-#pricing{
-  height: auto;
-  padding: 5% 14%;
-  text-align: center;
-  margin-bottom: 100px;
-
-}
-
-.card{
-  padding:0 12px 0 12px;
-}
-
-.fa-check{
-  color: black;
-}
-.fa-check-square{
-  color: black;
-  font-weight: 600;
-}
-.card-title{
-  margin-bottom: 10px;
-}
-.card-text{
-  padding-left: 25%;
-  text-align: left;
-}
-.card{
-  margin-bottom: 30px;
-  border-color: black;
-}
-.card-header{
-  border-bottom-color: grey;
-}
-.cd-container{
-  margin-top: 100px;
-}
-
-
-
-
-.img-contact{
-  margin:0 auto;
-  height: 150px;
-  width: auto;
-  border-radius: 100%;
-}
-
-
-
-.contact-logo{
-  margin-top: 20px;
-  font-family:Ubuntu;
-  font-style: bold;
-  font-weight:900;
-  font-size: 4.5rem;
-
-}
-#contact-us{
-
-  background-color: #24A19C;
-}
-#footer{
-  height: 100px;
-  position: relative;
-  background-color: #24A19C;
-}
-.contact-1{
-  text-align: left;
-}
-
-label{
+label {
   color: #fff;
   font-size: 20px;
   font-family: Ubuntu;
 }
 
-textarea{
-  width: 2px;
-}
-
-
-.contact-btn{
-   margin-top: 20px;
-   margin-left: 380px;
-}
-
-hr{
-
+hr {
   background: none;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   width: 12%;
-  height: 0px;
-  border-top: none;
+  height: 0;
   border-bottom: 7px dotted black;
 }
-.copy{
 
+/* -------------------------------------------------------ID Selectors------------------------------------------------------- */
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+}
+
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+
+}
+
+#testimonials {
+  background-color: #4FBDBA;
+  color: #fff;
+}
+
+#press {
+  background-color: #4FBDBA;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 5% 14%;
+  margin-bottom: 100px;
+}
+
+#contact-us {
+  background-color: #24A19C;
+}
+
+#footer {
+  height: 100px;
+  position: relative;
+  background-color: #24A19C;
+}
+/* -------------------------------------------------------Class Selector------------------------------------------------------- */
+
+                                                    /*Bootstrap Classes*/
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-size: 1.15rem;
+  font-weight: lighter;
+  margin-right: 30px;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+.card {
+  padding: 0 12px;
+  margin-bottom: 30px;
+  border-color: black;
+}
+
+.card-text {
+  padding-left: 25%;
+  text-align: left;
+}
+
+.card-header {
+  border-bottom-color: grey;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+
+
+/* ```````````````````````````````````````````````````````````````Made Up Classes````````````````````````````````````````````````````````````````` */
+
+
+
+.cfl {                /*dog image and brand name footer*/
+  padding: 3% 10%;
+}
+
+.img-box {              /* title section image div to position */
+  position: relative;
+}
+
+.iphone {                  /* Iphone image header */
+  right: 69px;
+  margin-top: 80px;
+  transform: rotate(20deg);
+  position: absolute;
+  height: 500px;
+  width: auto;
+}
+
+.features-col {            /* Features Column */
+  padding: 5%;
+}
+
+.fas {
+  color: #ef8172;
+  margin-bottom: 3.5%;
+}
+                       /* Fontawesome icon for features hover effect */
+.fas:hover {
+  color: #ff4c68;
+  transition: 0.6s ease;
+}
+
+.downloadbtn {            /* Android and iOS download button */
+  margin: 5% 3% 0 0;
+}
+
+.features-title {
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+.features-des {
+  color: #8f8f8f;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 1.5rem 1.5rem 3rem;
+}
+
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.fa-check {                /* Pricing Single tick */
+  color: black;
+}
+
+.fa-check-square {         /* Square Check */
+  color: black;
+  font-weight: 600;
+}
+
+.cd-container {            /* Container Gaurding All cards */
+  margin-top: 100px;
+}
+
+.img-contact {             /* Dog at Contact */
+  margin: 0 auto;
+  height: 150px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.contact-logo {            /*  Contact Heading of tindog */
+  margin-top: 20px;
+  font-family: Ubuntu;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+.contact-1 {                /*dog image and brand name footer*/
+  text-align: left;
+}
+
+.contact-btn {              /*Message send button*/
+  margin-top: 20px;
+  margin-left: 380px;
+}
+
+.copyright {
   margin-top: 500px;
   font-size: 1.25rem;
   font-weight: 900;
 }
-.sm_icon{
+
+.sm_icon {                   /* Social Media Icons div at contact */
   font-size: 1.6rem;
   padding-right: 6px;
   border-right: 2px black solid;
 }
-.social_media{
+
+.social_media {             /* Social Media text at contact */
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
 }
+
 @media (max-width:1200px) {
-    .iphone{
-      position: static;
-      transform: rotate(0deg);
-    }
+  .iphone {
+    position: static;
+    transform: rotate(0deg);
+  }
 
-    #title{
-      text-align: center;
-    }
+  #title {
+    text-align: center;
+  }
 
-    #contact-1{
-      text-align: center;
-
-      margin: 0 auto;
-    }
-
+  #contact-1 {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
