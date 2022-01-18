@@ -40,10 +40,12 @@ h1{
 .nav-link:hover{
   color: #fff
 }
-
+.img-box{
+  position: relative;
+}
 .iphone{
   margin-left: 7.5rem;
-
+  right: 69px;
   width: 50%;
   margin-top: 90px;
   transform: rotate(20deg);
