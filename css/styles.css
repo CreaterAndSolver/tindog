@@ -5,6 +5,7 @@ body{
 #title{
   /* height: 100vh; */
   background-color: #ff4c68;
+  padding-bottom: 5%;
 
 }
 .container-fluid{
@@ -44,8 +45,11 @@ h1{
   margin-left: 7.5rem;
 
   width: 50%;
-  margin-top: 50px;
+  margin-top: 90px;
   transform: rotate(20deg);
+  position: absolute;
+  height: 500px;
+  width: auto;
 
 }
 .fea{
@@ -92,8 +96,11 @@ h1{
 } */
 
 #features{
+  background-color: #fff;
   padding: 7% 15%;
   text-align: center;
+  position: relative;
+
   /* margin-top:5.5rem; */
 }
 
@@ -160,9 +167,10 @@ h2{
 }
 
 #pricing{
-  height: 100vh;
+  height: auto;
   padding: 5% 14%;
   text-align: center;
+  margin-bottom: 100px;
 
 }
 
