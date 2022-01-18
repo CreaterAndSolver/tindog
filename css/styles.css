@@ -12,6 +12,10 @@ body{
   padding:3% 15%;
 }
 
+.cfl{
+  padding:3% 10%;
+}
+
 h1{
   margin-top: 4.07rem;
   color: white;
@@ -131,11 +135,11 @@ h1{
 #testimonials{
 
   text-align: center;
-  background-color: #F94892;
+  background-color: #4FBDBA;
   color: #fff;
 }
 #press{
-  background-color: #F94892;
+  background-color: #4FBDBA;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -143,6 +147,8 @@ h1{
   width: 15%;
   margin: 1.5rem 1.5rem 3rem;
 }
+
+
 h2{
   font-weight: 900;
   line-height: 1.5;
@@ -206,6 +212,79 @@ h2{
 }
 
 
+
+
+.img-contact{
+  margin:0 auto;
+  height: 150px;
+  width: auto;
+  border-radius: 100%;
+}
+
+
+
+.contact-logo{
+  margin-top: 20px;
+  font-family:Ubuntu;
+  font-style: bold;
+  font-weight:900;
+  font-size: 4.5rem;
+
+}
+#contact-us{
+
+  background-color: #24A19C;
+}
+#footer{
+  height: 100px;
+  position: relative;
+  background-color: #24A19C;
+}
+.contact-1{
+  text-align: left;
+}
+
+label{
+  color: #fff;
+  font-size: 20px;
+  font-family: Ubuntu;
+}
+
+textarea{
+  width: 2px;
+}
+
+
+.contact-btn{
+   margin-top: 20px;
+   margin-left: 480px;
+}
+
+hr{
+
+  background: none;
+  margin: 0 auto 0 auto;
+  width: 12%;
+  height: 0px;
+  border-top: none;
+  border-bottom: 7px dotted black;
+}
+.copy{
+
+  margin-top: 500px;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.sm_icon{
+  font-size: 1.6rem;
+  padding-right: 6px;
+  border-right: 2px black solid;
+}
+.social_media{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
 @media (max-width:1200px) {
     .iphone{
       position: static;
@@ -214,6 +293,12 @@ h2{
 
     #title{
       text-align: center;
+    }
+
+    #contact-1{
+      text-align: center;
+
+      margin: 0 auto;
     }
 
 }
