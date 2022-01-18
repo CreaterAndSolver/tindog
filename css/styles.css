@@ -98,7 +98,7 @@ h1{
 }
 
 
-.downloadbtn{
+ .downloadbtn{
   margin: 5% 3% 0 0;
 }
 
@@ -160,5 +160,37 @@ h2{
 }
 
 #pricing{
+  height: 100vh;
   padding: 5% 14%;
+  text-align: center;
+
+}
+
+.card{
+  padding:0 12px 0 12px;
+}
+
+.fa-check{
+  color: black;
+}
+.fa-check-square{
+  color: black;
+  font-weight: 600;
+}
+.card-title{
+  margin-bottom: 10px;
+}
+.card-text{
+  padding-left: 25%;
+  text-align: left;
+}
+.card{
+  margin-bottom: 30px;
+  border-color: black;
+}
+.card-header{
+  border-bottom-color: grey;
+}
+.cd-container{
+  margin-top: 100px;
 }
